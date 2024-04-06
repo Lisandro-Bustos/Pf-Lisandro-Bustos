@@ -1,0 +1,58 @@
+footer {
+  width: 100%;
+  color: white;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer a img {
+  margin: 20% 0;
+  width: 110px;
+  height: 110px;
+}
+
+section article {
+  width: 90%;
+}
+
+section article h3 {
+  font-size: 25px;
+  border-bottom: 1px solid #9ba7c0;
+  padding-bottom: 2px;
+  margin: 3%;
+}
+
+section article ul {
+  padding-left: 0;
+}
+
+section article ul li {
+  font-size: 16px;
+  padding: 5% 0;
+  text-wrap: balance;
+}
+
+section article a {
+  text-decoration: none;
+  color: grey;
+  padding-left: 4%;
+  transition: all 0.3s ease;
+}
+
+section article a:hover {
+  color: white;
+  padding-left: 2%;
+}
+
+.copyright {
+  font-size: 16px;
+  text-align: center;
+  padding: 5%;
+  margin-top: 4%;
+  text-wrap: balance;
+}
+
+/*# sourceMappingURL=footer.css.map */

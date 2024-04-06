@@ -1,0 +1,36 @@
+header {
+  width: 100%;
+  padding: 20px;
+  height: 180px;
+  margin-bottom: 5%;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+}
+
+.img_nav {
+  height: 100px;
+  width: 100px;
+  margin: 4% 0;
+}
+
+.barra_nav {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+
+.barra_nav li a {
+  text-decoration: none;
+  color: grey;
+  transition: all 0.3s ease;
+}
+
+.barra_nav li a:hover {
+  color: white;
+  padding-bottom: 2%;
+}
+
+/*# sourceMappingURL=header.css.map */
