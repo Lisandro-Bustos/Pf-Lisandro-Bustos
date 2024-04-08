@@ -1,0 +1,127 @@
+.profe_main{
+    color: $color-text-primary;
+    width: 100%;
+}
+
+.profe_main h1{
+    font-size: 40px;
+    margin-top: 20%;
+    margin-bottom: 4%;
+    text-align: center;
+    text-wrap: balance;
+}
+
+.background_profe{
+    background: linear-gradient(
+        rgba(5, 7, 12, 0.75),
+        rgba(5, 7, 12, 0.75)),
+    url(../assets/images/profesores.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4%;
+    min-height: 80vh;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloque1{
+    border: 1px solid grey;
+    width: 90%;
+    margin: 5% 0;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloque1 img{
+    width: 70%;
+    height: 60%;
+    margin-bottom: 4%;
+    padding: 2%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque1 h2{
+    font-size: 32px;
+    padding: 1%;
+}
+
+.bloque1 p{
+    font-size: 15px;
+    margin: 5% 0%;
+}
+
+.bloque1 h3{
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    margin: 5% 0%;
+}
+
+.bloque1 ul{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloque1 ul li{
+    font-size: 16px;
+    list-style: circle;
+    padding-bottom: 3%;
+}
+
+.bloque2{
+    border: 1px solid grey;
+    width: 90%;
+    margin: 5% 0;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloque2  img{
+    width: 70%;
+    height: 60%;
+    margin-bottom: 4%;
+    padding: 2%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque2 h2{
+    font-size: 32px;
+    padding: 1%;
+}
+
+.bloque2 p{
+    font-size: 15px;
+    margin: 5% 0%;
+}
+
+.bloque2 h3{
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    margin: 5% 0%;
+}
+
+.bloque2 ul{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloque2 ul li{
+    font-size: 16px;
+    list-style: circle;
+    padding-bottom: 3%;
+}

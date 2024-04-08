@@ -1,3 +1,44 @@
+.form{
+    color: $color-text-primary;
+    background: linear-gradient(
+        50deg,
+        rgba(0, 0, 0, 0.900) 20%,
+        rgba(54, 46, 46, 0.6)),
+    url(../assets/images/contac.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10%;
+    padding: 5%;
+    margin: 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.form_main h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20%;
+    color: $color-text-primary;
+    display: flex;
+    justify-content: center;
+    
+}
+.form{
+    align-items: center;
+    text-wrap: balance;
+}
+.form_fieldset{
+    font-size: 14px;
+    padding: 5%;
+    width: 90%;
+    border-radius: 20px;
+}
+.input-group{
+    margin-top: 4%;
+}
+
+/*INICIO FOOTER*/
 footer{
     width: 100%;
     color: $color-text-primary;
@@ -36,7 +77,7 @@ section article ul li{
 
 section article a{
     text-decoration: none;
-    color: $color-text-secondary;
+    color: grey;
     padding-left: 4%;
     transition: all .3s ease;
 }

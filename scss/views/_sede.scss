@@ -1,0 +1,40 @@
+.sede_main{
+    width: 100%;
+    color: $color-text-primary;
+}
+
+.sede_main h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.sede_main p{
+    font-size: 18px;
+    margin:5%;
+    display: flex;
+    text-align: center;
+    padding-top: 10%;
+    text-wrap: balance;
+}
+
+.sede_map p{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-wrap: balance;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+.sede_map article iframe{
+    width: 75%; 
+    height: 300px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

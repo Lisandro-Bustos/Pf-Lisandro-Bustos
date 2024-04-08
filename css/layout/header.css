@@ -1,36 +1,17 @@
-header {
-  width: 100%;
-  padding: 20px;
-  height: 180px;
-  margin-bottom: 5%;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 28 |     color: $color-text-secondary;
+ *    |            ^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   scss\layout\header.scss 28:12  root stylesheet */
 
-.img_container {
-  display: flex;
-  justify-content: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 28 \2502      color: $color-text-secondary;\d\a    \2502             ^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   scss\\layout\\header.scss 28:12  root stylesheet";
 }
-
-.img_nav {
-  height: 100px;
-  width: 100px;
-  margin: 4% 0;
-}
-
-.barra_nav {
-  display: flex;
-  justify-content: center;
-  gap: 4%;
-}
-
-.barra_nav li a {
-  text-decoration: none;
-  color: grey;
-  transition: all 0.3s ease;
-}
-
-.barra_nav li a:hover {
-  color: white;
-  padding-bottom: 2%;
-}
-
-/*# sourceMappingURL=header.css.map */
