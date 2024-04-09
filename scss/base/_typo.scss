@@ -4,3 +4,11 @@
     font-family: Roboto;
     src: url(../assets/fonts/Roboto-Regular.ttf);
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-primary;
+}
+
+p, ul, li, button, input, option, textarea, form{
+    font-family: $font-secondary;
+}

@@ -1,3 +1,4 @@
+//inicio plan//
 .plan_main{
     color: $color-text-primary;
     width: 100%;
@@ -11,12 +12,25 @@
     text-wrap: balance;
 }
 
+@media (min-width:768px){
+    .plan_main h1{
+        font-size: 46px;
+        margin-top: 12%;
+    }
+}
+
 .plan_main p{
     font-size: 16px;
     margin: 2%;
     padding: 2%;
     text-align: center;
     text-wrap: balance;
+}
+
+@media (min-width:768px){
+    .plan_main p{
+        font-size: 20px;
+    }
 }
 
 .mensual_container{

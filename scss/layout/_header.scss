@@ -5,6 +5,12 @@ header {
     margin-bottom: 5%;
 }
 
+@media (min-width:768px){
+    .navegador{
+        height: 180px;
+    }
+}
+
 .img_container {
     display: flex;
     justify-content: center;
@@ -15,12 +21,21 @@ header {
     width: 100px; 
     margin: 4% 0;
 }
+@media (min-width:768px){
+    .img_nav{
+        margin: 2% 4%;
+    }
+}
 
 .barra_nav {
     display: flex;
     justify-content: center;
     gap: 4%;
-
+}
+@media (min-width:768px){
+    .barra_nav{
+        margin-top: 2%;
+    }
 }
 
 .barra_nav li a {

@@ -1,3 +1,4 @@
+//inicio profes//
 .profe_main{
     color: $color-text-primary;
     width: 100%;
@@ -9,6 +10,13 @@
     margin-bottom: 4%;
     text-align: center;
     text-wrap: balance;
+}
+
+@media (min-width:768px){
+    .profe_main h1{
+        font-size: 46px;
+        margin-top: 12%;
+    }
 }
 
 .background_profe{
@@ -28,6 +36,13 @@
     align-items: center;
 }
 
+@media (min-width:768px){
+    .background_profe{
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
 .bloque1{
     border: 1px solid grey;
     width: 90%;
@@ -38,6 +53,13 @@
     flex-direction: column;
 }
 
+@media (min-width:768px){
+    .bloque1{
+        width: 40%;
+        height: 650px;
+    }
+}
+
 .bloque1 img{
     width: 70%;
     height: 60%;
@@ -46,6 +68,13 @@
     border: 1px solid grey;
     display: flex;
     justify-content: center;
+}
+
+@media (min-width:768px){
+    .bloque1 img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .bloque1 h2{
@@ -71,6 +100,12 @@
     flex-direction: column;
 }
 
+@media (min-width:768px){
+    .bloque1 ul{
+        width: 80%;
+    }
+}
+
 .bloque1 ul li{
     font-size: 16px;
     list-style: circle;
@@ -87,6 +122,13 @@
     flex-direction: column;
 }
 
+@media (min-width:768px){
+    .bloque2{
+        width: 40%;
+        height: 650px;
+    }
+}
+
 .bloque2  img{
     width: 70%;
     height: 60%;
@@ -95,6 +137,13 @@
     border: 1px solid grey;
     display: flex;
     justify-content: center;
+}
+
+@media (min-width:768px){
+    .bloque2 img{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .bloque2 h2{
@@ -118,6 +167,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+@media (min-width:768px){
+    .bloque2 ul{
+        width: 80%;
+    }
 }
 
 .bloque2 ul li{
