@@ -2,68 +2,64 @@
 .sede_main{
     width: 100%;
     color: $color-text-primary;
+        h1{
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20%;
+                @media (min-width:768px){
+                    &{
+                        font-size: 46px;
+                        margin-top: 12%;
+                    }
+                }
+            }
+        p{
+            font-size: 18px;
+            margin:5%;
+            display: flex;
+            text-align: center;
+            padding-top: 10%;
+            text-wrap: balance;
+            @media (min-width:768px){
+                &{
+                    font-size: 20px;
+                    padding-top: 0;
+                    margin: 5% 15%;
+                }
+            }
+        }
 }
 
-.sede_main h1{
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20%;
-}
-
-@media (min-width:768px){
-    .sede_main h1{
-        font-size: 46px;
-        margin-top: 12%;
-    }
-}
-
-.sede_main p{
-    font-size: 18px;
-    margin:5%;
-    display: flex;
-    text-align: center;
-    padding-top: 10%;
-    text-wrap: balance;
-}
-
-@media (min-width:768px){
-    .sede_main p{
-        font-size: 20px;
-        padding-top: 0;
-        margin: 5% 15%;
-    }
-}
-
-.sede_map p{
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    text-wrap: balance;
-}
-
-@media (min-width:768px){
-    .sede_map p{
-        font-size: 22px;
-        margin: 4% 1% 2% 1%;
-    }
-}
-
-.map {
-    display: flex;
-    justify-content: center;
-}
-
-.sede_map article iframe{
-    width: 75%; 
-    height: 300px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-@media (min-width:768px){
-    .sede_map article iframe{
-        height: 400px;
-    }
+.sede_map{
+    article{
+        p{
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            text-wrap: balance;
+            @media (min-width:768px){
+                &{
+                    font-size: 22px;
+                    margin: 4% 1% 2% 1%;
+                }
+            }
+        }
+        .map {
+            display: flex;
+            justify-content: center;
+                iframe{
+                    width: 75%; 
+                    height: 300px;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    @media (min-width:768px){
+                        &{
+                            height: 400px;
+                        }
+                    }
+                }
+            }
+        } 
 }
