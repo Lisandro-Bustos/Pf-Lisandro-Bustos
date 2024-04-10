@@ -64,19 +64,19 @@ header {
 }
 .barra_nav li a {
   text-decoration: none;
-  color: grey;
+  color: rgb(128, 128, 128);
   transition: all 0.3s ease;
 }
 
 .barra_nav li a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   padding-bottom: 2%;
 }
 
 .index_main {
   width: 100%;
   height: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .index_main_c1 {
@@ -141,8 +141,8 @@ header {
 .index_main_c2 a {
   font-size: 20px;
   text-decoration: none;
-  color: white;
-  border: 2px solid white;
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 40%;
   padding: 2%;
   margin: 10% 30%;
@@ -160,7 +160,7 @@ header {
 
 .sede_main {
   width: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .sede_main h1 {
   font-size: 40px;
@@ -220,7 +220,7 @@ header {
 }
 
 .plan_main {
-  color: white;
+  color: rgb(255, 255, 255);
   width: 100%;
 }
 
@@ -257,7 +257,7 @@ header {
 }
 
 .mensual {
-  border: 1px solid grey;
+  border: 1px solid rgb(128, 128, 128);
   width: 350px;
   height: 430px;
   margin: 4%;
@@ -271,12 +271,12 @@ header {
   font-size: 28px;
   margin: 4%;
   padding: 2%;
-  border-bottom: 1px solid #9ba7c0;
+  border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .mensual p {
   font-size: 28px;
-  border-bottom: 1px solid #9ba7c0;
+  border-bottom: 1px solid rgb(128, 128, 128);
   padding: 4px;
   margin: 4%;
 }
@@ -293,9 +293,9 @@ header {
 
 .mensual a {
   font-size: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 15px;
   padding: 2%;
   margin-top: 20%;
@@ -309,7 +309,7 @@ header {
 }
 
 .anual {
-  border: 1px solid grey;
+  border: 1px solid rgb(128, 128, 128);
   width: 350px;
   height: 430px;
   margin: 4%;
@@ -323,12 +323,12 @@ header {
   font-size: 28px;
   margin: 4%;
   padding: 2%;
-  border-bottom: 1px solid #9ba7c0;
+  border-bottom: 1px solid rgb(128, 128, 128);
 }
 
 .anual p {
   font-size: 28px;
-  border-bottom: 1px solid #9ba7c0;
+  border-bottom: 1px solid rgb(128, 128, 128);
   padding: 4px;
   margin: 4%;
 }
@@ -355,9 +355,9 @@ header {
 
 .anual a {
   font-size: 20px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 15px;
   padding: 2%;
   margin-top: 10%;
@@ -365,7 +365,7 @@ header {
 }
 
 .profe_main {
-  color: white;
+  color: rgb(255, 255, 255);
   width: 100%;
 }
 
@@ -404,7 +404,7 @@ header {
   }
 }
 .bloque1 {
-  border: 1px solid grey;
+  border: 1px solid rgb(128, 128, 128);
   width: 90%;
   margin: 5% 0;
   padding: 4%;
@@ -424,7 +424,7 @@ header {
   height: 60%;
   margin-bottom: 4%;
   padding: 2%;
-  border: 1px solid grey;
+  border: 1px solid rgb(128, 128, 128);
   display: flex;
   justify-content: center;
 }
@@ -447,7 +447,7 @@ header {
 
 .bloque1 h3 {
   font-size: 18px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(128, 128, 128);
   margin: 5% 0%;
 }
 
@@ -470,7 +470,7 @@ header {
 }
 
 .bloque2 {
-  border: 1px solid grey;
+  border: 1px solid rgb(128, 128, 128);
   width: 90%;
   margin: 5% 0;
   padding: 4%;
@@ -490,7 +490,7 @@ header {
   height: 60%;
   margin-bottom: 4%;
   padding: 2%;
-  border: 1px solid grey;
+  border: 1px solid rgb(128, 128, 128);
   display: flex;
   justify-content: center;
 }
@@ -513,7 +513,7 @@ header {
 
 .bloque2 h3 {
   font-size: 18px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(128, 128, 128);
   margin: 5% 0%;
 }
 
@@ -536,7 +536,7 @@ header {
 }
 
 .form {
-  color: white;
+  color: rgb(255, 255, 255);
   background: linear-gradient(50deg, rgba(0, 0, 0, 0.9) 20%, rgba(54, 46, 46, 0.6)), url(../assets/images/contac.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -560,7 +560,7 @@ header {
   font-size: 40px;
   font-weight: bold;
   margin-top: 20%;
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
 }
@@ -584,8 +584,8 @@ header {
 
 footer {
   width: 100%;
-  color: white;
-  border-top: 1px solid white;
+  color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -612,7 +612,7 @@ section article {
 
 section article h3 {
   font-size: 25px;
-  border-bottom: 1px solid #9ba7c0;
+  border-bottom: 1px solid rgb(255, 255, 255);
   padding-bottom: 2px;
   margin: 3%;
 }
@@ -629,13 +629,13 @@ section article ul li {
 
 section article a {
   text-decoration: none;
-  color: grey;
+  color: rgb(128, 128, 128);
   padding-left: 4%;
   transition: all 0.3s ease;
 }
 
 section article a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   padding-left: 2%;
 }
 

@@ -2,7 +2,7 @@
 footer{
     width: 100%;
     color: $color-text-primary;
-    border-top: 1px solid white;
+    border-top: 1px solid $border-color-secondary;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@ section article{
 }
 section article h3{
     font-size: 25px;
-    border-bottom: 1px solid #9ba7c0;
+    border-bottom: 1px solid $border-color-secondary;
     padding-bottom: 2px;
     margin: 3%;
 }
@@ -52,7 +52,7 @@ section article a{
 }
 
 section article a:hover{
-    color: white;
+    color: $color-text-primary;
     padding-left: 2%;
 }
 

@@ -39,7 +39,7 @@
 }
 
 .mensual{
-    border: 1px solid grey;
+    border: 1px solid $border-color-primary;
     width: 350px;
     height: 430px;
     margin: 4%;
@@ -54,12 +54,12 @@
     font-size: 28px;
     margin: 4%;
     padding: 2%;
-    border-bottom: 1px solid #9ba7c0;
+    border-bottom: 1px solid $border-color-primary;
 }
 
 .mensual p{
     font-size: 28px;
-    border-bottom: 1px solid #9ba7c0;
+    border-bottom: 1px solid $border-color-primary;
     padding: 4px;
     margin: 4%;
 }
@@ -78,7 +78,7 @@
     font-size: 20px;
     color: $color-text-primary;
     text-decoration: none;
-    border: 2px solid white;
+    border: 2px solid $border-color-secondary;
     border-radius: 15px;
     padding: 2%;
     margin-top: 20%;
@@ -92,7 +92,7 @@
 }
 
 .anual{
-    border: 1px solid grey;
+    border: 1px solid $border-color-primary;
     width: 350px;
     height: 430px;
     margin: 4%;
@@ -106,13 +106,13 @@
     font-size: 28px;
     margin: 4%;
     padding: 2%;
-    border-bottom: 1px solid #9ba7c0;
+    border-bottom: 1px solid $border-color-primary;
 }
 
 
 .anual p{
     font-size: 28px;
-    border-bottom: 1px solid #9ba7c0;
+    border-bottom: 1px solid $border-color-primary;
     padding: 4px;
     margin: 4%;
 }
@@ -141,7 +141,7 @@
     font-size: 20px;
     color: $color-text-primary;
     text-decoration: none;
-    border: 2px solid white;
+    border: 2px solid $border-color-secondary;
     border-radius: 15px;
     padding: 2%;
     margin-top: 10%;
