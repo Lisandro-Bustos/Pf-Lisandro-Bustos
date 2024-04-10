@@ -80,7 +80,7 @@ header {
 }
 
 .index_main_c1 {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("./assets/images/home.jpg");
+  background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url("/assets/images/home.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -384,7 +384,7 @@ header {
   }
 }
 .background_profe {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/images/profesores.jpg);
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../assets/images/profesores.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -537,7 +537,7 @@ header {
 
 .form {
   color: white;
-  background: linear-gradient(50deg, rgba(0, 0, 0, 0.9) 20%, rgba(54, 46, 46, 0.6)), url(../assets/images/contac.jpg);
+  background: linear-gradient(50deg, rgba(0, 0, 0, 0.9) 20%, rgba(54, 46, 46, 0.6)), url(../assets/images/contac.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
