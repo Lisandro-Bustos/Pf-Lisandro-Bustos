@@ -64,7 +64,7 @@ header {
 }
 .barra_nav li a {
   text-decoration: none;
-  color: rgb(128, 128, 128);
+  color: rgb(180, 168, 168);
   transition: all 0.3s ease;
 }
 
@@ -629,7 +629,7 @@ section article ul li {
 
 section article a {
   text-decoration: none;
-  color: rgb(128, 128, 128);
+  color: rgb(180, 168, 168);
   padding-left: 4%;
   transition: all 0.3s ease;
 }
